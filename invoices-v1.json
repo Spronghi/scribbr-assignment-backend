@@ -3,7 +3,7 @@
     "api": "/api/invoices"
   },
   "mongo": {
-    "url": "mongodb+srv://spronghi:porcamadonna2@bot-cluster.zzjdm.mongodb.net/test?retryWrites=true&w=majority",
+    "url": "mongodb://mongo_invoices/test",
     "database": "test"
   }
 }
