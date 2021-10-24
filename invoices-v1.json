@@ -1,0 +1,9 @@
+{
+  "service": {
+    "api": "/api/invoices"
+  },
+  "mongo": {
+    "url": "mongodb+srv://spronghi:porcamadonna2@bot-cluster.zzjdm.mongodb.net/test?retryWrites=true&w=majority",
+    "database": "test"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "scribbr-invoices",
+  "version": "1.0.0",
+  "description": "just a invoices microservice for the scribbr assignment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "fastify start index.js --address 0.0.0.0",
+    "lint": "standard",
+    "lint-fix": "standard --fix"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@spronghi/mongo": "file:mongo",
+    "@spronghi/server": "file:server",
+    "fastify-cli": "^2.13.0",
+    "http-errors": "^1.8.0"
+  },
+  "devDependencies": {
+    "snazzy": "^9.0.0",
+    "standard": "^16.0.4"
+  }
+}

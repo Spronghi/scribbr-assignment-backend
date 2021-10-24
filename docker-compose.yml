@@ -1,0 +1,21 @@
+version: '3'
+services:
+  mongo_invoices:
+    image: "mongo"
+    ports:
+      - "27018:27017"
+    volumes:
+      - ./.invoices-data:/data/db
+  app:
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    environment:
+      - NODE_ENV=locale    
+    ports:
+      - '3000:3000'
+      - '9229:9229'
+    volumes:
+      - ./:/app
+    depends_on:
+      - mongo_invoices
