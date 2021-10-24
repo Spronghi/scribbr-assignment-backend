@@ -18,6 +18,9 @@ I wanted to separate the `invoices` microservice from a microservice that manage
 
 Please take in consideration that I took 3 hours to made the backend from scratch.
 
+## Deployed on Heroku
+The server is deployed on Heroku at the URL `https://scribbr-assignment-b.herokuapp.com/`. Please consider that is a free subscription so it stays alive only if a request is done every 20/30 seconds, and then, after a request arrives it take some seconds to wake up!
+
 ## How to start
 There are different ways of running the server
 
